@@ -9,7 +9,7 @@ st.text("hello")
 if st.button("X"):
     # تنظیمات مرورگر Chrome
     chrome_options = Options()
-    # chrome_options.add_argument("--headless")  # برای اجرای بدون رابط کاربری
+    chrome_options.add_argument("--headless")  # برای اجرای بدون رابط کاربری
     chrome_options.add_argument("--proxy-server=21.213.57.123:8080")
 
     # ایجاد یک webdriver
